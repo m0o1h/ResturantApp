@@ -23,17 +23,23 @@ https://user-images.githubusercontent.com/89120598/229352103-58af16ea-34cd-4728-
 
 ## Dependencies
 ```sh
+    "@expo/config-plugins": "~6.0.0",
+    "@expo/webpack-config": "^18.0.1",
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "@react-navigation/stack": "^6.3.16",
     "expo": "~48.0.9",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.4",
-    "recoil": "^0.7.7",
-    "react-native-web": "~0.18.10",
     "react-dom": "18.2.0",
-    "@expo/webpack-config": "^18.0.1"
+    "react-native": "0.71.4",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-safe-area-context": "^4.5.0",
+    "react-native-screens": "^3.20.0",
+    "react-native-web": "~0.18.10",
+    "recoil": "^0.7.7"
  ```
 
 

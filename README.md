@@ -17,11 +17,7 @@ npm install -g
 ```
 
 ## Usage example
-
-
-
-https://user-images.githubusercontent.com/89120598/223938711-4e9c8f8e-6f1d-46db-ae1b-23de6cf8d560.mp4
-
+https://user-images.githubusercontent.com/89120598/229352103-58af16ea-34cd-4728-9775-101ee1c1eb70.mp4
 
 
 

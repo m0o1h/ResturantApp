@@ -4,6 +4,8 @@ import { RecoilRoot } from 'recoil';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen';
+import MenuScreen from './screens/MenuScreen';
+import OrderNoScreen from'./screens/OrderNoScreen';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +20,16 @@ export default function App() {
           }}
           ></Stack.Screen>
           <Stack.Screen name='DetailsScreen' component={DetailsScreen} 
+          options={{
+            headerShown:false,
+          }}
+          ></Stack.Screen>
+          <Stack.Screen name='MenuScreen' component={MenuScreen} 
+          options={{
+            headerShown:false,
+          }}
+          ></Stack.Screen>
+          <Stack.Screen name='OrderNoScreen' component={OrderNoScreen} 
           options={{
             headerShown:false,
           }}

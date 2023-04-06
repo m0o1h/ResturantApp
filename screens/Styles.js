@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#003348',
     },
 
+    // Splash Screen
     splashIcon:{
         marginTop:150,
         backgroundColor:'white',
@@ -27,17 +28,24 @@ const styles = StyleSheet.create({
         marginTop:400,
     },
 
+
+    // Menu Screen
     mainTopImageContainer:{
         backgroundColor:'green',
         borderBottomRightRadius:40,
         borderBottomLeftRadius:40,
         width:'100%',
-        height:'35%'
+        height:'10%',
+        marginTop:45,
     },
     mainTopCartIcon:{
         position:'absolute',
-        top:40,
+        top:8,
         right:15,
+    },
+    mainTopBackIcon:{
+        marginLeft:20, 
+        position:'absolute'
     },
     mainTopImage:{
         width:'100%', 
@@ -84,7 +92,14 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
     },
+    menuItemSearchBar:{
+        width:'95%',
+        padding:10,
+        borderRadius:5,
+        backgroundColor:'white',
+      },
 
+    // Details Screen
     detailsContainer:{
         width:width,
         height:'90%',
@@ -98,6 +113,7 @@ const styles = StyleSheet.create({
         bottom:15
     },
     detailsMainHeadingText:{
+        width:'95%',
         color:'black',
         fontWeight:'bold',
         margin:10,
@@ -105,7 +121,8 @@ const styles = StyleSheet.create({
         alignSelf:'center', 
         backgroundColor:'orange', 
         borderRadius:5, 
-        padding:10
+        padding:10,
+        elevation:10,
     },
     detailsText:{
         color:'black',
@@ -113,6 +130,109 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
         margin:10,
     },
+
+
+    //Home Screen
+    homeHeader:{
+        backgroundColor:'white',
+        width:'100%',
+        height:'10%',
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+    },
+    homeHeaderImage:{
+
+        position:'absolute',
+        left:20,
+        top:35,
+        width:40,
+        height:40,
+    },
+    homeHeaderText:{
+        color:'black',
+        position:'absolute',
+        left:65,
+        top:40,
+        fontSize:20,
+        fontWeight:'bold',
+    },
+    homeHeaderUserIcon:{
+        position:'absolute',
+        right:25,
+        top:45,
+    },
+    homeTopNameContainer:{
+        backgroundColor:'#E6F8FF',
+        width:'92%',
+        height:'8%',
+        margin:15,
+        padding:5,
+        borderRadius:5,
+        justifyContent:'center',
+    },
+    homeTopNameText:{
+        color:'black',
+        fontSize:25,
+        fontWeight:'bold',
+        alignSelf:'center',
+    },
+    homeTopBigTouchable:{
+        backgroundColor:'#6BA9FF',
+        borderRadius:5,
+        paddingHorizontal:5,
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        width:'70%',
+        height:'7%',
+        margin:10,
+    },
+    homeTopBigTouchableText:{
+        color:'white',
+        fontSize:25,
+        fontWeight:'bold',
+    },
+    homeTouchanleListContainer:{
+        flex:1,
+        flexDirection:'row',
+        flexWrap:'wrap',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    homeTouchanleList:{
+        backgroundColor:'orange',
+        borderRadius:5,
+        paddingHorizontal:5,
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        width:'44%',
+        height:'10%',
+        margin:10,
+        marginVertical:20,
+    },
+
+    // Final Order Slip Screen
+      orderScreenFlatlistContainer:{
+        backgroundColor:'#DAEAFF',
+        margin:10,
+        borderRadius:5,
+        padding:5,
+        flexDirection:'row',
+        flexWrap:'wrap',
+        justifyContent:'center',
+        elevation:10,
+      },
+
+    //   incrementDecrementItemNoContainer:{
+    //     flexDirection:'row',
+    //     backgroundColor:'grey',
+    //   },
+    //   incrementDecrementItemNo:{
+    //     marginHorizontal:6,
+    //   },
+
 });
 
 export {styles};
